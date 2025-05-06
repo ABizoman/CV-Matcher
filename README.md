@@ -8,5 +8,8 @@
 - or they do it in house (might not be worth)
 - seems like an easy (relatively) task so I though I would try
 
-found Resume Matcher which seems like a good tool, I need to understand how to use it though 
+found [Resume Matcher](https://github.com/srbhr/Resume-Matcher) which seems like a good tool, I need to understand how to use it though 
 - plan is to send this to reda
+
+there is [this tool](https://github.com/kirudang/CV-Job-matching/tree/main) as well even though it has a lot less stars and is less polsihed
+- looks simples
