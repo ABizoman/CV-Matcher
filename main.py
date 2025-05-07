@@ -2,8 +2,13 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # sentences = ["So the problem is that the model wasn't trained on french", "We can conclude that the AI was french not built for user"]
+DescriptionFilePaths = ["Descriptions/ExperiencedSWE.txt",
+                       "Descriptions/ViticultureConsultant.txt", 
+                       "Descriptions/SWESystems&performance.txt",
+                       "Descriptions/ITAnalyst.txt",
+                       "Descriptions/GraduateSWE.txt",
+                       "Descriptions/AudioSWE.txt"]
 
-DescriptionFilePath = "Descriptions/ViticultureConsultant.txt"
 CVFilePath = "CVs/OthmanCV.txt"
 
 def read_text_file(file_path):
@@ -23,19 +28,18 @@ def read_text_file(file_path):
         print(f"Error reading text file {file_path}: {e}")
         return ""
 
-DescriptionStr = read_text_file(DescriptionFilePath)
 CVStr = read_text_file(CVFilePath)
-
-sentences = [DescriptionStr, CVStr]
-
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-embeddings = model.encode(sentences)
 
-similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+for description_path in DescriptionFilePaths:
+    DescriptionStr = read_text_file(description_path)
+    sentences = [DescriptionStr, CVStr]
+    embeddings = model.encode(sentences)
+    similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
 
-threshold = 0.6
-adjusted_similarity = (similarity / 0.4) * 100  # Scale similarity so that 40% becomes 100%
-if adjusted_similarity > threshold * 100:
-    print(f"The description is a match (adjusted similarity: {adjusted_similarity:.0f}%)")
-else:
-    print(f"The description is not a match (adjusted similarity: {adjusted_similarity:.0f}%)")
+    threshold = 0.6
+    adjusted_similarity = (similarity / 0.4) * 100  # Scale similarity so that 40% becomes 100%
+    if adjusted_similarity > threshold * 100:
+        print(f"{description_path}: The description is a match (adjusted similarity: {adjusted_similarity:.0f}%)")
+    else:
+        print(f"{description_path}: The description is not a match (adjusted similarity: {adjusted_similarity:.0f}%)")
