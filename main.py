@@ -3,7 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # sentences = ["So the problem is that the model wasn't trained on french", "We can conclude that the AI was french not built for user"]
 
-DescriptionFilePath = "Descriptions/musicInter/ViticultureConsultant.txt"
+DescriptionFilePath = "Descriptions/ViticultureConsultant.txt"
 CVFilePath = "CVs/OthmanCV.txt"
 
 def read_text_file(file_path):
