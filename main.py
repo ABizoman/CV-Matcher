@@ -1,48 +1,41 @@
-# from sentence_transformers import SentenceTransformer
-# from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # sentences = ["So the problem is that the model wasn't trained on french", "We can conclude that the AI was french not built for user"]
 
-# model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-# embeddings = model.encode(sentences)
+DescriptionFilePath = "Descriptions/musicInter/ViticultureConsultant.txt"
+CVFilePath = "CVs/OthmanCV.txt"
 
-# similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+def read_text_file(file_path):
+    """Read text content from a plain text file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return file.read()
+    except UnicodeDecodeError:
+        # Try with another encoding if UTF-8 fails
+        try:
+            with open(file_path, 'r', encoding='latin-1') as file:
+                return file.read()
+        except Exception as e:
+            print(f"Error reading text file {file_path}: {e}")
+            return ""
+    except Exception as e:
+        print(f"Error reading text file {file_path}: {e}")
+        return ""
 
-# threshold = 0.8
-# if similarity > threshold:
-#     print(f"The sentences are semantically similar (similarity: {similarity:.2f})")
-# else:
-#     print(f"The sentences are not semantically similar (similarity: {similarity:.2f})")
+DescriptionStr = read_text_file(DescriptionFilePath)
+CVStr = read_text_file(CVFilePath)
 
-from transformers import CamembertModel, CamembertTokenizer
+sentences = [DescriptionStr, CVStr]
 
-# You can replace "camembert-base" with any other model from the table, e.g. "camembert/camembert-large".
-# tokenizer = CamembertTokenizer.from_pretrained("camembert/camembert-base")
-# camembert = CamembertModel.from_pretrained("camembert/camembert-base")
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+embeddings = model.encode(sentences)
 
+similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
 
-from transformers import pipeline 
-
-camembert_fill_mask  = pipeline("fill-mask", model="camembert/camembert-base", tokenizer="camembert/camembert-base")
-results = camembert_fill_mask("Le camembert est un fromage de <mask>!")
-print(results[0]['sequence'], '\n', str(results[0]['score']*100) + ' %')
-
-import torch
-# Tokenize in sub-words with SentencePiece
-tokenized_sentence = tokenizer.tokenize("J'aime le camembert !")
-# ['▁J', "'", 'aime', '▁le', '▁ca', 'member', 't', '▁!'] 
-
-# 1-hot encode and add special starting and end tokens 
-encoded_sentence = tokenizer.encode(tokenized_sentence)
-# [5, 221, 10, 10600, 14, 8952, 10540, 75, 1114, 6]
-# NB: Can be done in one step : tokenize.encode("J'aime le camembert !")
-
-# Feed tokens to Camembert as a torch tensor (batch dim 1)
-encoded_sentence = torch.tensor(encoded_sentence).unsqueeze(0)
-embeddings, _ = camembert(encoded_sentence)
-# embeddings.detach()
-# embeddings.size torch.Size([1, 10, 768])
-#tensor([[[-0.0928,  0.0506, -0.0094,  ..., -0.2388,  0.1177, -0.1302],
-#         [ 0.0662,  0.1030, -0.2355,  ..., -0.4224, -0.0574, -0.2802],
-#         [-0.0729,  0.0547,  0.0192,  ..., -0.1743,  0.0998, -0.2677],
-#         ...,
+threshold = 0.6
+adjusted_similarity = (similarity / 0.4) * 100  # Scale similarity so that 40% becomes 100%
+if adjusted_similarity > threshold * 100:
+    print(f"The description is a match (adjusted similarity: {adjusted_similarity:.0f}%)")
+else:
+    print(f"The description is not a match (adjusted similarity: {adjusted_similarity:.0f}%)")

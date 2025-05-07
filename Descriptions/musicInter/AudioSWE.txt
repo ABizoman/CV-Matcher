@@ -1,0 +1,41 @@
+Job Title: Junior Software Engineer – Audio & Creative Tools
+
+Location: London, UK | Hybrid (2–3 days remote)
+
+Company Overview:
+SoundWorx is an innovative audio software company focused on building creative tools for music producers, podcasters, and sound designers. From intuitive EQ plugins to breakthrough system audio utilities, our mission is to empower creators through thoughtful design and powerful tech.
+
+Role Summary:
+We’re looking for a Junior Software Engineer to join our growing team of creative technologists. This is a fantastic opportunity for a motivated student or early-career engineer with experience in C++, Swift, and Python—especially with a passion for audio and music tech.
+
+Key Responsibilities:
+- Contribute to the development of audio plugins (AU/VST/VST3) using the JUCE framework
+- Assist in building MacOS applications that interact with Core Audio and system-level APIs
+- Prototype internal tools or features using Python (e.g., benchmarking scripts or visualizations)
+- Participate in code reviews, standups, and sprint planning
+- Write clear technical documentation and maintain clean Git workflows
+- Collaborate with designers and musicians to shape creative features
+
+Ideal Candidate:
+- Pursuing a BSc in Computer Science or a related field (penultimate or final year preferred)
+- Hands-on experience with at least one audio programming project (JUCE, Core Audio, etc.)
+- Comfortable programming in C++, Swift, and Python
+- Some familiarity with Git, REST APIs, and client-side JS is a plus
+- Strong debugging and problem-solving skills
+- Passion for music production, audio systems, or digital creativity
+
+Bonus Skills (Not Required):
+- Experience using Logic Pro, Reaper, or other DAWs
+- Knowledge of DSP concepts (filters, EQs, FFT)
+- Exposure to web technologies like Brython or WebAssembly
+
+What We Offer:
+- £25,000–£30,000 salary depending on experience
+- Flexible hybrid schedule with MacBook Pro and studio headphones provided
+- Mentorship from experienced audio engineers and plugin developers
+- Opportunity to publish open-source tools under our GitHub org
+- First look at internal sound design software and beta features
+- Studio discounts and invitations to music-tech meetups
+
+How to Apply:
+Please email your CV, GitHub link, and (if you have one) a demo of your audio plugin or app to careers@soundworx.io with subject line: “Junior Audio Engineer Application – [Your Name]”

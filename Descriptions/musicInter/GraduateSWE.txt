@@ -1,0 +1,48 @@
+Position Title: Audio Software Engineer (Graduate/Intern)
+
+Company Overview
+Join WaveLab Innovations, a fast‑growing music‑technology startup dedicated to empowering producers, musicians, and creatives with intuitive, high‑performance audio tools. We blend cutting‑edge audio‑DSP, elegant UI/UX, and web‑native technologies to deliver seamless studio experiences—on desktop and in the browser. Based in London with a global user community, we value technical excellence, open source collaboration, and a passion for music.
+
+Role Summary
+As an Audio Software Engineer, you will design, develop, and ship new audio applications and plugins across macOS and web platforms. You’ll work end‑to‑end on features such as real‑time audio I/O, digital signal‑processing algorithms, and browser‑based deployments—leveraging your skills in C/C++, Swift, Python, and web technologies. This role is ideal for a recent (or upcoming) Computer Science graduate who’s built DSP tools, macOS apps, or in‑browser audio demos and is eager to hit “record” on their professional career.
+
+Key Responsibilities
+DSP & Plugin Development
+Architect and implement real‑time audio processing algorithms (EQs, filters, effects) in C++ using the JUCE framework.
+Deliver VST, AU, and AAX plugin builds with polished graphic user interfaces and live‑frequency visualizers.
+macOS Audio Applications
+Build and maintain native macOS apps using Swift and the Core Audio Taps API for system‑level audio capture and routing.
+Ensure robust permission handling, low‑latency I/O, and a seamless user experience.
+Web‑Native Audio Tools
+Deploy Python‑based algorithms to the browser via Brython or WebAssembly, creating in‑browser demos and utilities.
+Optimize performance, load times, and responsive UI for client‑side audio processing.
+Algorithmic Research & Optimization
+Investigate and benchmark advanced heuristics (e.g. SAT‑solver branching strategies) to improve tool performance.
+Profile code, refine data structures (occurrence lists, caching), and document findings in GitHub‑hosted repos.
+Collaboration & Open Source
+Work in an agile, Git‑driven environment; write clear, maintainable code and unit tests.
+Engage with our open‑source community: review PRs, author technical documentation, and contribute demos.
+Required Qualifications
+Education:
+BSc (Hons) in Computer Science (or equivalent), graduating 2024–2025.
+Technical Skills:
+C++ & JUCE: Hands‑on experience building audio plugins (VST/AU) with real‑time DSP.
+Swift & Core Audio: Proven ability to develop native macOS apps using the Core Audio Taps API.
+Python & Web Deployment: Implemented algorithms in Python; deployed to browser via Brython or similar.
+Algorithms & Data Structures: Strong understanding of shortest‑path, SAT‑solving, recursion, and efficiency heuristics.
+Version Control: Proficient with Git workflows, branching, PR reviews.
+Soft Skills:
+Clear communication—experience managing teams or communities.
+Self‑starter attitude; able to research independently and benchmark solutions.
+Fluency in English (C1) and French (native); Arabic or Spanish a plus.
+Preferred Experience
+Contributions to open‑source audio or algorithmic projects on GitHub.
+Familiarity with Node.js, Express, and front‑end frameworks (HTML/CSS/JS).
+Exposure to audio production tools (Logic Pro X, Reaper) or digital music workflows.
+Interest in surfing, cycling, or other creative pursuits—bringing a fresh perspective to product design.
+What We Offer
+Competitive salary or internship stipend, plus equity options.
+Flexible hybrid work model (London office + remote).
+Professional development budget for courses (e.g. CS50, conferences).
+A collaborative culture centered on innovation and music—surf trips and jam sessions encouraged!
+If you’re passionate about audio technology, elegant software design, and delivering tools that inspire musicians worldwide, we’d love to hear from you. Apply with your CV, GitHub links, and a brief cover letter highlighting your favorite project

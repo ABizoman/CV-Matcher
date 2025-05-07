@@ -1,6 +1,6 @@
 6/05/2025
 
-*For 6eme homme* - thank you Hamzah for already doing something like this in the past and not gatekeeping. ❤️
+*For 6eme homme* - thank you Hamzah for already doing something like this in the past and not gatekeeping. 
 
 ## Task
 - 6eme is looking into implementing AI to match resumes to gigs
@@ -44,3 +44,12 @@ I think that i'm going to use [bert-base-multilingual-cased](https://huggingface
 Going to try to use this sentence transformer model: [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 - i know have working code that takes 2 sentences and compares them but the score I get is just bullshit.
 Apparently there are some BERT models that are better suited for french: notament [camemBERT](https://camembert-model.fr) - i find this way funnier then i should - there is also an older one called flauBERT
+
+#### I ended up doing it in english (for now)
+- using [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+- sending 1 description as .txt
+- sending 1 CV as .txt
+- Chat GPT generated job descriptions
+	**results:**
+	- for a job descr. that is completely off-topic the scores make sens
+	- for very close job descr. scores start to be less accurate - this is where training would be needed

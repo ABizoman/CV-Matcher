@@ -1,0 +1,42 @@
+Job Title: Software Engineer – Systems & Performance
+
+Location: London, UK | Hybrid (3 days on-site)
+
+Company Overview:
+At QuantEdge Technologies, we build high-performance software systems that power real-time data analysis, trading algorithms, and mission-critical financial operations. Our engineering team focuses on solving low-latency, high-throughput challenges using C++, Rust, and custom performance instrumentation tools.
+
+Role Overview:
+We are seeking a mid-level to senior Software Engineer to join our Systems Performance team. The ideal candidate has 3–5 years of experience writing production-level C++ or Rust code in performance-sensitive environments. You will work closely with infrastructure teams to deliver optimized systems software and profiling tools used across the company.
+
+Responsibilities:
+- Design, implement, and optimize low-level components in C++ (17/20) or Rust
+- Develop profiling tools for CPU, memory, and I/O bottleneck analysis
+- Collaborate with DevOps to tune containerized workloads for minimal latency
+- Contribute to internal benchmarking frameworks and test harnesses
+- Conduct code reviews and mentor junior engineers
+- Write technical documentation for APIs and internal libraries
+- Participate in weekly performance war rooms to address critical regressions
+
+Required Qualifications:
+- BSc or MSc in Computer Science, Electrical Engineering, or related field
+- 3+ years of experience in systems-level software development
+- Proficient in C++ or Rust, with strong understanding of memory models and multithreading
+- Comfortable using gdb, perf, valgrind, or equivalent tools
+- Familiar with Linux internals, networking stacks, and kernel/user-space interactions
+- Experience deploying and monitoring services in production (Docker, Kubernetes)
+
+Preferred Skills:
+- Familiarity with trading systems, HPC, or financial infrastructure
+- Experience contributing to open-source compilers, operating systems, or instrumentation libraries
+- Exposure to Golang or Python for scripting and tooling
+- Knowledge of TCP/IP tuning, NUMA, and CPU affinity management
+
+What We Offer:
+- £65,000–£85,000 base salary, with annual bonus potential
+- Hybrid work schedule (3 days onsite)
+- Access to on-site lab with custom benchmarking hardware
+- Annual learning budget and conference travel support
+- Gym membership and free meals on in-office days
+
+How to Apply:
+Email your CV and GitHub profile to careers@quantedge.tech. In your cover letter, tell us about a performance challenge you’ve solved.
