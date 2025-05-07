@@ -9,14 +9,14 @@
 - seems like an easy (relatively) task so I though I would try
 
 found [Resume Matcher](https://github.com/srbhr/Resume-Matcher) which seems like a good tool, I need to understand how to use it though 
-- plan is to send this to Reda
+
 
 there is [this tool](https://github.com/kirudang/CV-Job-matching/tree/main) as well even though it has a lot less stars and is less polished
-- looks simples
+- looks simpler
 [this article](https://kartikmadan11.medium.com/building-a-job-description-to-resume-matcher-using-natural-language-processing-5a4f5181cfe4) seems very helpful as well - about methods of varying difficulty to accomplish this task + implementations - talks about the BERT thing that hamza uses
 
 ### What is BERT?
-It is an open-source NLP (natural language processing) machine learning framework (made by GOOGLE?????). It is made? for understanding the context of text by considering all words in a sentence - and it is **great for fine-tuning** because it was trained on 2 tasks:
+It is an open-source NLP (natural language processing) machine learning framework made by GOOGLE. It is made for understanding the context of text by considering all words in a sentence - and it is **great for fine-tuning** because it was trained on 2 tasks:
 1. Masked LM(Language Modelling)![[Screenshot 2025-05-07 at 12.06.13.png]]
 2. Next sentence prediciton
 ![[Screenshot 2025-05-07 at 12.07.26.png]]
