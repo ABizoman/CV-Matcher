@@ -1,7 +1,6 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# sentences = ["So the problem is that the model wasn't trained on french", "We can conclude that the AI was french not built for user"]
 DescriptionFilePaths = ["Descriptions/ExperiencedSWE.txt",
                        "Descriptions/ViticultureConsultant.txt", 
                        "Descriptions/SWESystems&performance.txt",
