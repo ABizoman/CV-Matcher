@@ -6,7 +6,8 @@ DescriptionFilePaths = ["Descriptions/ExperiencedSWE.txt",
                        "Descriptions/SWESystems&performance.txt",
                        "Descriptions/ITAnalyst.txt",
                        "Descriptions/GraduateSWE.txt",
-                       "Descriptions/AudioSWE.txt"]
+                       "Descriptions/AudioSWE.txt",
+                       "Descriptions/AmazonSDEIntern.txt"]
 
 CVFilePath = "CVs/OthmanCV.txt"
 
@@ -37,7 +38,7 @@ for description_path in DescriptionFilePaths:
     similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
 
     threshold = 0.6
-    adjusted_similarity = (similarity / 0.4) * 100
+    adjusted_similarity = (similarity / 0.6) * 100
     if adjusted_similarity > threshold * 100:
         print(f"{description_path}: The description is a match (adjusted similarity: {adjusted_similarity:.0f}%)")
     else:

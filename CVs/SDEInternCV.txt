@@ -1,0 +1,58 @@
+PROFILE
+Innovative and highly motivated Computer Science Master’s student with a passion for distributed systems, machine learning, and scalable software architecture. Demonstrates a strong foundation in algorithms, optimization, and computer systems, with a proven ability to apply theory to real-world solutions. Eager to contribute to high-impact projects at Amazon that push the boundaries of cloud computing and artificial intelligence.
+
+EDUCATION
+MSc Computer Science
+University of Technology, USA
+Expected Graduation: May 2026
+
+GPA: 4.0 / 4.0
+Coursework: Advanced Algorithms, Machine Learning, Distributed Systems, Operating Systems, Cloud Architecture, Computer Vision
+BSc Computer Engineering
+TechState University
+Graduated: May 2024
+
+Graduated with Distinction (Top 5%)
+TECHNICAL SKILLS
+Languages: Python, Java, C++, C, Scala, Bash
+Frameworks/Tools: TensorFlow, PyTorch, Docker, Kubernetes, Spark, Hadoop, Git, Jenkins
+Cloud/DB: AWS (EC2, S3, Lambda, DynamoDB), GCP, MySQL, PostgreSQL
+Core CS Concepts: Data Structures, Algorithms, Object-Oriented Design, Operating Systems, Complexity Analysis, Optimization
+SOFTWARE ENGINEERING EXPERIENCE
+Software Development Intern – AWS AI/ML Division
+Amazon · Seattle, WA · May 2024 – Aug 2024
+
+Designed and implemented a distributed prediction service that reduced inference time by 32% for real-time recommendation pipelines.
+Integrated with AWS Lambda and DynamoDB to support scalable, fault-tolerant microservices.
+Collaborated with senior engineers and participated in code reviews, agile sprints, and architectural design sessions.
+Undergraduate Research Assistant – Distributed Systems Lab
+TechState University · Aug 2023 – May 2024
+
+Developed a scalable consensus protocol simulator in C++ for testing fault tolerance in blockchain networks.
+Published results in IEEE Distributed Computing Conference 2024.
+Benchmarked performance across multiple network topologies using real-time metrics and system logs.
+PROJECTS
+Smart Annotation Platform (NLP/Cloud)
+
+Built a semi-automated data labeling tool for NLP tasks using Python, FastAPI, and AWS S3.
+Integrated BERT-based model suggestions and human-in-the-loop workflows to accelerate annotation by 60%.
+Neural Network Compiler for Edge Devices
+
+Implemented a lightweight neural net compiler using LLVM for ARM-based devices.
+Optimized quantization and memory layout for deployment on Raspberry Pi and Nvidia Jetson.
+LEADERSHIP & COMMUNITY
+President – University AI Club
+
+Led workshops on deep learning, AWS cloud services, and ethical AI.
+Organized hackathons and mentored students on open-source ML projects.
+Open Source Contributor – PyTorch
+
+Submitted patches and improvements related to memory efficiency and GPU compatibility.
+CERTIFICATIONS
+AWS Certified Solutions Architect – Associate
+TensorFlow Developer Certificate
+LANGUAGES
+English (Native)
+Spanish (Professional Proficiency)
+AVAILABILITY
+Available for 3-month or 6-month internships starting June 2025.

@@ -1,56 +1,46 @@
-EDUCATION        
-Durham University                      Durham, United Kingdom 
-BSc (Hons) Computer Science                                                    09/2024 - 06/2027 
-Relevant Coursework: (in progress) Programming (gold), Computer Systems, Computational thinking, Algorithms & Data 
-Structures, Mathematics for Computer Science 
-Student Organizations: DUcompsoc, Durhack 
- 
-HarvardX 
-Certificate: CS50 (online)            06/2024 - 09/2024 
--Learned core algorithm and data structure principles like arrays and linked lists.  
--Learned how to implement these principles in the real world by programming in C. 
--Gained an overall understanding of recursion, algorithmic efficiency, debugging, version control using Git, along with 
-knowledge of the functioning of computers at different levels of abstraction (Computational Thinking). 
- 
-PROJECTS 
-Occurrence List DPLL Sat Solver                     
-Academic Project | Python, Brython                    2025                             
--Developed a Davis–Putnam–Logemann–Loveland style sat-solver in python from scratch (no libraries). 
--Conducted research and extensive benchmarking to implement the most time-efficient branching heuristic. 
--Implemented clause modification through an occurrence list, resulting in ~50% efficiency gains vs. efficient iterative 
-methods. 
--Documented my findings on GitHub. 
--Deployed the solver as an in-browser tool with Brython, running the python solver natively in the client-side JS. 
-SampleRecorder                                                             
-Audio Programming | MacOS App | Swift, Core Audio Taps                 2025 
--Made a lightweight Open-Source Mac OS app for music producers and creatives to be able to record system audio without 
-having to re-route through an Aggregate Device manually. 
--Used MacOS’s new Core Audio Taps API to do so. 
--Learned about the low-level Mac OS audio architecture to create a robust audio system, complete with system permission 
-checking. 
-Graphic 3-Band EQ 
-Audio Programming | C++ | JUCE framework          2024-2025 
--Developed a graphic EQ deployed as AU, VST and VST3 for personal use using the JUCE framework. 
--Made a graphic UI complete with a graph showing the live frequencies of the audio being played 
-EXPERIENCE 
-SURFLAND OUALIDIA SURFCAMP                                           Oualidia, Morocco 
-Community Manager & Surfing Instructor                                               06/2022 - 07/2022 
--Coached and taught children and teenagers aged 4 to 16 in a variety of waves and conditions. 
--Held the responsibility of handling all communication between camp staff and younger campers. 
--Describe what you accomplished in your position and give numbers indicating achievements. 
--Managed camp wellbeing and implemented community engagement initiatives for 60 kids. 
-VOLUNTARY EXPERIENCE 
-AMIS DES ECOLE – IMPACT MOROCCO                         Morocco 
-Project Manager, Member           10/2021 – 05/2022 
--Successfully raised and oversaw the management of $33k for the construction of a new classroom and sanitization block at a 
-girls only boarding school in rural Morocco; Dar Taliba. 
--Facilitated communication between NGOs and coordinated a cultural experience in Morocco for over 50 international 
-volunteers. 
--Undertook various negotiations for accommodation, food, cultural integration activities, and construction arrangements, 
-often acting as a translator between locals and the international volunteers.  
- 
-SKILLS AND INTERESTS 
-Technical: Proficient in C, Python, Swift, SwiftUI, NumPy, Matplotlib, Rest API, HTML, CSS, Bootstrap, JS, Node.js, 
-express, jest and GIT – Googling – Audio Programming - Microsoft Office Suite, Logic Pro X, Final Cut Pro X, Reaper 
-Languages: French (First language), English (C1), Arabic (B2), Spanish (B1) 
-Interests: Surfing, Music (guitar & voice), Cycling, Swimming, books, cinema  
+Education
+Durham University Durham, United Kingdom
+BSc (Hons) Computer Science 09/2024 - 06/2027
+Relevant Coursework: (in progress) Programming (gold), Computer Systems, Computational thinking, Algorithms & Data
+Structures, Mathematics for Computer Science
+Student Organizations: DUcompsoc, Durhack
+HarvardX
+Certificate: CS50 (online) 06/2024 - 09/2024
+- Learned core algorithm & data structure principles + real world implementations in C.
+- Understood principles such as recursion, algorithmic efficiency, debugging, version control using Git, along with
+knowledge of the functioning of computers at different levels of abstraction (Computational Thinking).
+Skills & Projects
+Programming: C, Python, Swift, Swift UI, JavaScript, Audio Programming, NumPy, Matplotlib, REST API
+Soft Skills: Quick-Learner, Problem-solving, Adaptability, Communication, Teamwork, Leadership
+Languages: French (native), English (C1), Arabic (B2), Spanish (B1)
+Occurrence List DPLL Sat Solver
+Academic Project | Python, Brython, JavaScript - Developed a Davis–Putnam–Logemann–Loveland style sat-solver in python from scratch (no libraries).
+- Conducted research and extensive benchmarking to implement the most time-efficient branching heuristic.
+- Implemented clause modification through an occurrence list, resulting in ~50% efficiency gains vs. efficient iterative
+2025
+methods.
+- Deployed the solver as an in-browser tool with Brython, running the python solver natively in the client-side JS.
+MOUJA | A Social Network for Surfers
+Academic Project | REST API, JavaScript, node.js, express, html, CSS, Bootstrap , jest, multer 2025
+- Built a story-sharing platform prioritizing narrative quality over likes or shares.
+- Implemented a REST API complete with GET & POST methods for story draft saving, search, and popularity-based
+sorting features.
+- Designed a clean, responsive UI for browsing and posting stories with image upload support.
+SampleRecorder
+Audio Programming | MacOS App | Swift, Core Audio Taps 2025
+- Made a lightweight Open-Source Mac OS app for music producers and creatives to be able to record system audio
+without having to re-route through an Aggregate Device manually.
+- Learned about the low-level Mac OS audio architecture, creating a robust audio system using the Core Audio Taps API.
+Experience
+Surland Oualidia Surfcamp Oualidia, Morocco
+Community Manager & Surfing Instructor 06/2022 - 07/2022
+- Coached surfing to children and teenagers aged 4-16 in a variety of waves and conditions.
+- Handled all communication between camp staff and younger campers, ensuring camp wellbeing for 60 kids.
+Voluntary Experience
+AMIS DES ECOLE – Impact Morocco Project Manager, Member Morocco
+10/2021 – 05/2022
+- Successfully raised and oversaw the management of $33k for the construction of a new classroom and sanitization block
+at a girls only boarding school in rural Morocco; Dar Taliba.
+- Coordinated communication between NGOs while organising a cultural experience in Morocco for over 50 international
+volunteers, often acting as a translator between locals and international volunteers.
+Interests: Surfing, Music (guitar & voice), Cycling, Swimming, Literature, cinema
