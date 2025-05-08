@@ -53,3 +53,6 @@ Apparently there are some BERT models that are better suited for french: notamen
 	**results:**
 	- for a job descr. that is completely off-topic the scores make sens
 	- for very close job descr. scores start to be less accurate - this is where training would be needed
+
+Next would also be to:
+-    Designe a lightweight REST API for resume ranking and feedback, facilitating integration into job platforms or personal dashboards.
